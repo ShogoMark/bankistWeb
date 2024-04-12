@@ -124,7 +124,7 @@ const headerObserver = new IntersectionObserver
 (stickyNav, {
  root: null,
  threshold: 0,
- rootMargin: `-${navheight}`,
+ rootMargin: `-${navheight}px`,
 });
 
 headerObserver.observe(header);
